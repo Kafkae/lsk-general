@@ -1,11 +1,10 @@
 {
   "parser": "babel-eslint",
   "extends": "airbnb",
-  "globals": {
+  "globals2": {
     "document": true,
     "window": true,
-    "screen": true,
-    "If": true
+    "screen": true
   },
   "parserOptions": {
     "ecmaFeatures": {

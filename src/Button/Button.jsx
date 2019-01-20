@@ -5,7 +5,7 @@ import CloseIcon from 'react-icons2/mdi/close';
 import PropTypes from 'prop-types';
 import omit from 'lodash/omit';
 import If from 'react-if';
-import LoadingDots from '../LoadingDots';
+import LoadingDots from '../Loading/LoadingDots';
 import filterProps from '../utils/filterProps';
 import {
   Btn,

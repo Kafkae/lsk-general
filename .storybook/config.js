@@ -1,3 +1,3 @@
-import { config } from 'storybox';
+import configure from 'storybox/configure';
 import params from './params';
-config(params);
+configure(params, module);

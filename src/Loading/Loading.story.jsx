@@ -1,7 +1,7 @@
 import React from 'react';
 import Story from '../Story';
 import Loading from './Loading';
-import LoadingDots from '../LoadingDots';
+import LoadingDots from './LoadingDots';
 
 module.exports = ({ storiesOf }) => (
   storiesOf('Loading', module)
@@ -13,6 +13,11 @@ module.exports = ({ storiesOf }) => (
     .add('LoadingDots', () => (
       <Story>
         <LoadingDots />
+      </Story>
+    ))
+    .add('LoadingDots black', () => (
+      <Story>
+        <LoadingDots color="#000" />
       </Story>
     ))
 );
