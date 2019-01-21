@@ -9,6 +9,7 @@ module.exports = {
     "@babel/plugin-proposal-optional-chaining",
     "@babel/plugin-proposal-function-bind",
     "@babel/plugin-proposal-export-namespace-from",
+    "@babel/plugin-transform-modules-commonjs",
     "@babel/plugin-transform-runtime",
     "emotion"
   ]
