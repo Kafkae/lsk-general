@@ -1,5 +1,6 @@
 import React from 'react';
-import { ThemeContext } from '@emotion/core';
+/** @jsx jsx */
+import { jsx, ThemeContext } from '@emotion/core'
 import { ThemeProvider } from 'emotion-theming';
 import styled from '@emotion/styled';
 import Story from '../src/Story';
@@ -29,6 +30,13 @@ module.exports = function ({ storiesOf, action, knob }) {
         </StyledButton>
 
       </Story>
+    ))
+    .add('сыы', () => (
+      <ThemeProvider theme={{ colors: {primary: 'red'}}}>
+        <div css={theme => ({ color: theme.colors.primary })}>
+      some other text
+    </div>
+      </ThemeProvider>
     ))
     .add('styled2', () => (
       <ThemeProvider theme={{ colors: {primary: 'red'}}}>
