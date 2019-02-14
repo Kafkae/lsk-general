@@ -1,7 +1,9 @@
 const req = require.context(
-  '../src',
+  // '../src/Button',
+  '.',
   true,
-  /^.*(?!UI\/).*.story.js|.story.js|.story.jsx|.story.jsx$/,
+  // /^.*(?!UI\/).*.story.js|.story.js|.story.jsx|.story.jsx$/,
+  /.*.story.js|.story.js|.story.jsx|.story.jsx$/,
 );
 
 

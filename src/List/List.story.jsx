@@ -4,7 +4,7 @@ import random from 'lodash/random';
 import sample from 'lodash/sample';
 import omit from 'lodash/omit';
 import { observer } from 'mobx-react';
-import { css } from 'emotion';
+import { css } from '@emotion/core';
 import cx from 'classnames';
 import Promise from 'bluebird';
 import axios from 'axios';

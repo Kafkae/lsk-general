@@ -1,4 +1,5 @@
-import styled, { keyframes } from 'react-emotion';
+import styled from '@emotion/styled';
+import { keyframes } from '@emotion/core';
 
 const spin = keyframes`
   from {transform:rotate(0deg);}

@@ -1,5 +1,6 @@
 /* eslint max-len: 0 */
-import { injectGlobal, css } from 'react-emotion';
+import { injectGlobal, css } from '@emotion/core';
+
 
 export const blockStyle = css`
   width: calc(100% - 12px);

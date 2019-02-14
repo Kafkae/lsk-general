@@ -1,8 +1,8 @@
-import styled from 'react-emotion';
+import styled from '@emotion/styled'
 
 export default styled('main')`
   width: 100%;
-  background-color: ${p => p.theme.colors.mainBackground};
+  background-color: ${p => { console.log('ppp', p); return  'red'; p.theme.colors.mainBackground }};
   padding: 4px 8px 24px;
   display: flex;
   flex-direction: column;

@@ -1,4 +1,5 @@
-import styled, { css } from 'react-emotion';
+import styled from '@emotion/styled';
+import { css } from '@emotion/core';
 import removeProps from '../../../utils/removeProps';
 
 export const Title = styled(removeProps('div', ['align']))`

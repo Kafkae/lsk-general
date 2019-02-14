@@ -51,7 +51,7 @@ const connectListStore = async ({
   });
 
   if (__DEV__) {
-    setTimeout(remove, 30000);
+    setTimeout(remove, 5000);
   }
 
   return remove;

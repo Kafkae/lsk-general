@@ -1,4 +1,5 @@
-import styled, { css } from 'react-emotion';
+import styled from '@emotion/styled';
+import { css } from '@emotion/core';
 import Card from 'antd/lib/card';
 import PostActions from '../../atoms/PostActions';
 import removeProps from '../../../utils/removeProps';
