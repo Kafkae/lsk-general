@@ -20,7 +20,7 @@ module.exports = function ({ storiesOf, action, knob }) {
       </Story>
     ))
     .add('with some emoji', () => (
-      
+
       <button onClick={action('clicked')}><span role="img" aria-label="so cool">😀 😎 👍 💯</span></button>
     ))
     .add('styled', () => (
@@ -31,9 +31,9 @@ module.exports = function ({ storiesOf, action, knob }) {
 
       </Story>
     ))
-    .add('сыы', () => (
+    .add('qeq', () => (
       <ThemeProvider theme={{ colors: {primary: 'red'}}}>
-        <div css={theme => ({ color: theme.colors.primary })}>
+        <div css={theme => { console.log('theme in story', theme); return { color: theme.colors.primary } }}>
       some other text
     </div>
       </ThemeProvider>
