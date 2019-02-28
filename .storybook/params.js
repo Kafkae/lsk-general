@@ -1,8 +1,8 @@
 import React from 'react'
 import * as storybook from '@storybook/react'
 const req = require.context(
-  '.',
-  // '../src',
+  // '.',
+  '../src',
   true,
   /.story.js|.story.js|.story.jsx|.story.jsx$/,
 );
